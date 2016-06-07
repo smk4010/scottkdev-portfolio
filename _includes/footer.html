@@ -1,38 +1,19 @@
-<footer class="site-footer">
 
-  <div class="wrapper">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<script type="text/javascript" src="js/retina.min.js"></script>
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+<script type="text/javascript" src="js/jquery.hidenavbaronscroll.js"></script>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+<script type="text/javascript">
+    var contactLatitude  = {{ site.contact.latitude }};
+    var contactLongitude = {{ site.contact.longitude }};
+    var markerTitle      = "{{ site.contact.marker_title }}";
+    var markerAddress    = "{{ site.contact.marker_address }}";
+</script>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+<script src="js/main.js"></script>

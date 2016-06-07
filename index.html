@@ -1,23 +1,41 @@
 ---
 layout: default
+title: Welcome
 ---
+<div id="wrap">
+	<div id="skrollr-body">
 
-<div class="home">
+		<!-- Main Navigation -->
+		{% include navbar.html %}
+		<!-- End Main Navigation -->
 
-  <h1 class="page-heading">Posts</h1>
+		<!-- Hero -->
+		{% include image-hero.html %}
+		<!-- End Hero -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<!-- Features -->
+		{% include features.html %}
+		<!-- End Features -->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+		<!-- Home Blockquote -->
+		{% include home-blockquote.html %}
+		<!-- End Home Blockquote -->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+		<!-- Services -->
+		{% include services.html %}
+		<!-- End Services -->
 
+		<!-- Work -->
+		{% include work-gallery.html %}
+		<!-- End Work -->
+
+		<!-- Pricing Tables -->
+		{% include pricing-tables.html %}
+		<!-- End Pricing Tables -->
+
+		<!-- Contact -->
+		{% include contact.html %}
+		<!-- End Contact -->		
+
+	</div>
 </div>
