@@ -22,21 +22,21 @@ navbar_links:
   - title: "Services"
     url: "#services"
   - title: "Work"
-    url: "#work"    
+    url: "#work"
   - title: "Pricing Tables"
     url: "#pricing-tables"
   - title: "Contact"
     url: "#contact"
 
-# Navigation Background Color. 
+# Navigation Background Color.
 # Options: caribbean-green, summer-sky, golden-poppy, deep-carmine-pink
 navbar_color: "caribbean-green"
 
 # Image Hero
 # -------------------------
 
-title:            "Kunstnerisk"
-tagline:      	  "a responsive bootstrap three theme for jekyll"
+title:            "Scott Kuchinski"
+tagline:      	  "Full Stack Web Development for the modern age."
 
 # Features Thumbs
 # -------------------------
@@ -70,7 +70,7 @@ features_thumbs:
 # Blockquote
 # -------------------------
 
-blockquote: 
+blockquote:
    text: "We develop online marketing solutions that help enterprises accurately identify the consumers that truly need their services."
    tagline: "Serving the community since 2014"
    button_text: "Read More"
@@ -88,7 +88,7 @@ services:
    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
  - title: "UI/UX Design"
    icon: "magic"
-   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."      
+   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
 
 # Work Mosaic
 # -------------------------
@@ -113,7 +113,7 @@ work_thumbs:
  - title: "Officiis Aspernatur"
    description: "Fugit aut earum in sit, placeat quis consequatur."
    url: "#_"
-   image: "media/img/work-05.jpg"   
+   image: "media/img/work-05.jpg"
  - title: "Soluta Asperiores"
    description: "Fugit aut earum in sit, placeat quis consequatur."
    url: "#_"
