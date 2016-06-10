@@ -2,7 +2,7 @@
 # -------------------------
 
 current_version:  1.0.0
-name: 			  Kunstnerisk
+name: 			  ScottK Dev
 
 # Main Logo
 # -------------------------
@@ -35,8 +35,8 @@ navbar_color: "caribbean-green"
 # Image Hero
 # -------------------------
 
-title:            "SCOTTK DEV"
-tagline:      	  "Full Stack Web Development for the modern age."
+title:            "Modern Web Development Services"
+tagline:      	  "Clean, futuristic, secure applications for the web of the today."
 
 # Features Thumbs
 # -------------------------
